@@ -1,0 +1,38 @@
+{
+  "name": "ytm-kawarp-plugin",
+  "version": "1.0.0",
+  "description": "Renderizador de fundos animados fluidos para YouTube Music Desktop (pear-desktop)",
+  "author": "Desenvolvido para pear-desktop",
+  "license": "AGPL-3.0",
+  "keywords": [
+    "youtube-music",
+    "pear-desktop",
+    "plugin",
+    "kawarp",
+    "background",
+    "animation",
+    "webgl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/better-lyrics/kawarp"
+  },
+  "dependencies": {
+    "@kawarp/core": "latest"
+  },
+  "peerDependencies": {
+    "pear-desktop": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "index.ts",
+    "types.ts",
+    "menu.ts",
+    "style.css",
+    "README.md",
+    "INSTALLATION.md",
+    "USAGE.md"
+  ]
+}
